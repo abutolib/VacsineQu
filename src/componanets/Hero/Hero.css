@@ -1,0 +1,78 @@
+.hero__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 54px 0 41px;
+}
+
+.hero__left {
+  width: 100%;
+  max-width: 410px;
+
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  color: #001F29;
+}
+
+.hero__text {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #B9C0C1;
+}
+
+.hero__right {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    "square1 square2 rectangle"
+    "square3 square4 rectangle"
+  ;
+
+}
+
+.square {
+
+  width: 180px;
+  height: 184px;
+  background: #FFE1D8;
+  border-radius: 10px;
+}
+.square1 {
+  grid-area: square1;
+
+}
+.square2 {
+  grid-area: square2;
+
+}
+.square3 {
+  grid-area: square3;
+
+}
+.square4 {
+  grid-area: square4;
+
+}
+
+.rectangle {
+  grid-area: rectangle;
+  width: 180px;
+  height: 389px;
+  background: #FFE1D8;
+  border-radius: 10px;
+}

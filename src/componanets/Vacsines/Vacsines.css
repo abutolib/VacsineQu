@@ -1,0 +1,54 @@
+.vacsines__inner{
+  background-image: url('../../../src/assets/images/tochka.svg');
+  background-repeat: no-repeat;
+  background-position: center right 60px;
+}
+
+.vacsines__list {
+  display: flex;
+  align-items: end;
+  padding-bottom: 80px;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 80px;
+  gap: 16px;
+}
+
+.vacsines__item {
+  position: relative;
+  width: 100%;
+  max-width: 245px;
+  padding: 24px 33px 30px;
+  background: #FFFFFF;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+
+
+.vacsines__title {
+  margin: 0 0 10px;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #001F29;
+  text-align: end;
+}
+
+.vacsines__text {
+  width: 100%;
+  max-width: 101px;
+  margin: 0 0 28px;
+  margin-left:auto ;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #B9C0C1;
+}
+
+.center {
+  display: inline-block;
+  margin: 0 auto;
+}

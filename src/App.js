@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Header from './componanets/Header/Header';
+import Hero from './componanets/Hero/Hero';
+import Vacsines from './componanets/Vacsines/Vacsines'
+import SheuldeVac from './componanets/SheuldeVac/SheuldeVac'
+import Important from './componanets/Important/Important';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Hero/>
+      <Vacsines/>
+      <SheuldeVac/>
+      <Important/>
     </div>
   );
 }
